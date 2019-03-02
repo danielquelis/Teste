@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeriodoAcademico.Dados", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeriodoAcademico.Web", "PeriodoAcademico.Web\PeriodoAcademico.Web.csproj", "{412FFC9F-4880-4D77-911D-6A8F4D860D3A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PeriodoAcademico", "PeriodoAcademico", "{C4F93E02-9F91-48A1-9F12-3C71109D519A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22372AC5-9A7E-4C50-8F5B-E09542E382E6} = {C4F93E02-9F91-48A1-9F12-3C71109D519A}
+		{EF9489DB-8A8F-4526-AAE2-EB1A596A531E} = {C4F93E02-9F91-48A1-9F12-3C71109D519A}
+		{412FFC9F-4880-4D77-911D-6A8F4D860D3A} = {C4F93E02-9F91-48A1-9F12-3C71109D519A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4A93C95-DE5E-4E02-B024-B7B8A5AD7262}

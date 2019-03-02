@@ -45,6 +45,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entidade\" />
+    <Folder Include="Regras\" />
+    <Folder Include="Servico\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PeriodoAcademico.Dados\PeriodoAcademico.Dados.csproj">
+      <Project>{ef9489db-8a8f-4526-aae2-eb1a596a531e}</Project>
+      <Name>PeriodoAcademico.Dados</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
